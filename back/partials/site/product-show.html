@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+      </div>   
+      <br />
+
+      <div ng-controller="products">
+           <div class="card card-default">
+               <div class="card-body">
+                    <h2><span class="alert alert-warning float-right">{{product.price | number:2}} zl</span></h2>
+                    <h2><span class="text-capitalize">{{product.name}}</span></h2>
+                    <br />
+                    <p>{{product.description}}</p>
+                    <a href="#/products" class="btn btn-secondary">Powrót</a>      
+               </div>
+          </div>
+    </div>
+</div> 
